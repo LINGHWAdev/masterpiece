@@ -1,0 +1,25 @@
+{
+  "name": "masterpiece",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "dev": "cd client && npx vite",
+    "build": "cd client && npx vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "sql.js": "^1.14.1",
+    "ssh2": "^1.17.0",
+    "uuid": "^13.0.0"
+  }
+}
